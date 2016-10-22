@@ -1,0 +1,57 @@
+div {
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+ul li {
+  padding: 0 10px;
+  float: left;
+  display: flex;
+  cursor: pointer;
+  border: 1px solid black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+ul li:hover {
+  background-color: gray;
+  color: white;
+}
+
+.Small-Hands {
+  font-size: 18px;
+  padding: 0;
+  margin-top: 1px;
+  border: 1px solid black;
+  color: blue;
+  background-image: url(http://ilovemyfreedom.org/wp-content/uploads/2015/09/MakeAmericaGreatAgain.jpg);
+  min-height: 290px;
+  }
+
+.Make-America-Great-Again {
+  font-size: 30px;
+  padding: 0;
+  display: flex;
+  margin-top: 1px;
+  border: 1px solid black;
+  color: white;
+  background-image: url(http://all-len-all.com/wp-content/uploads/2015/10/trump-goof.jpg);
+  min-height: 290px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  }
+
+.clocks {
+  display: flex;
+  justify-content: space-between;
+  min-width: 380px;
+  color: gold;
+}
+
+article:after {
+  content: "";
+  clear: both;
+  display: block;
+}
